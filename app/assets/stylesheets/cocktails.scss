@@ -15,6 +15,8 @@
   display: flex;
   justify-content: space-around;
   flex-direction: column;
+  margin: 5px 10px;
+  border-radius:10px;
 }
 
 .full-container {
@@ -41,6 +43,7 @@
 
 body {
   font-family: 'Lobster', cursive;
+  padding-right: 0;
 }
 
 .text-slant {
