@@ -21,8 +21,8 @@ function bindSweetAlertButtonDemo() {
               });
             }, 1000);
       swal({
-        title: "A nice alert",
-        text: "This is a great alert, isn't it?",
+        title: "Success!",
+        text: "You've added a dose to the cocktail, click ok to refresh the page!",
         icon: "success"
       });
     });
