@@ -7,7 +7,9 @@
   height: 100vh;
   max-width: 1280px;
 }
-
+.fas {
+  color: red;
+}
 .card {
   color: white;
   height: 250px;
@@ -51,4 +53,8 @@ body {
 
 .text-slant {
   font-family: 'Lobster', cursive;
+}
+
+.go-away {
+  display: none;
 }

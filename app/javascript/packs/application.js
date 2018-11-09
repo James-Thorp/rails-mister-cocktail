@@ -16,3 +16,6 @@ if (typed) {
 }
 import { bindSweetAlertButtonDemo } from './components/banner';
 bindSweetAlertButtonDemo();
+
+import { bindSweetAlertButtonDanger } from './components/banner';
+bindSweetAlertButtonDanger();
