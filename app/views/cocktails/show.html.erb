@@ -5,7 +5,7 @@
 <% @cocktail.doses.each do |dose| %>
 <p><%= dose.description %> of <%= dose.ingredient.name %> <i class="fas fa-thumbs-up"></i></p>
 <% end %>
-<h5>Add Ingredients to this cocktail..</h5>
+<h5>Add Ingredients to this cocktail below</h5>
 <%= simple_form_for([@cocktail, @dose]) do |f| %>
 
 
@@ -16,7 +16,7 @@
   </div>
 
   <div class="form-actions">
-    <%= f.button :submit, class: "btn btn-success" %>
+    <%= f.button :submit, id: "sweet-alert-demo", class: "btn btn-success" %>
   </div>
 <% end %>
 <br>

@@ -10,17 +10,21 @@
 
 .card {
   color: white;
-  height: 300px;
+  height: 250px;
   padding: 20px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-direction: column;
   margin: 5px 10px;
   border-radius:10px;
 }
-
+.padding {
+  padding-left: 15px;
+  font-size: 20px;
+}
 .full-container {
   min-height: 100vh;
+  padding: 10px;
   h1{
     margin-top: 0;
     padding-left: 100px;
@@ -33,7 +37,6 @@
 }
 
 .flex {
-  display: flex;
   align-items: center;
   color: white;
   img {

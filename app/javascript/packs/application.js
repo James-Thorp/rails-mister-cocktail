@@ -9,3 +9,10 @@
 
 import 'bootstrap';
 console.log('Hello World from Webpacker')
+import { loadDynamicBannerText } from './components/banner';
+const typed = document.getElementById('banner-typed-text');
+if (typed) {
+  loadDynamicBannerText();
+}
+import { bindSweetAlertButtonDemo } from './components/banner';
+bindSweetAlertButtonDemo();
